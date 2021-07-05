@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lato&family=Roboto&display=swap');
+
+    .content {
+      padding: 100px;
+      background-image: url(images/bg.jpg);
+      background-size: auto;
+    }
+    .sedan {
+      width: 330px;
+      height: 550px;
+      background-color: hsl(31, 77%, 52%);
+      display: inline-block;
+      padding: 50px;
+      border-radius: 1%;
+      margin: 0px;
+    }
+    .suv {
+      width: 330px;
+      height: 550px;
+      background-color: hsl(184, 100%, 22%);
+      display: inline-block;
+      padding: 50px;
+      border-radius: 1%;
+    }
+    .luxury {
+      width: 330px;
+      height: 550px;
+      background-color: hsl(179, 100%, 13%);
+      display: inline-block;
+      padding: 50px;
+      border-radius: 1%;
+    }
+    .logo {
+      width: auto;
+      height: auto;
+      display: block;
+    }
+
+    .judul{
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0px;
+    }
+
+    .judul p {
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      font-size: 70px;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .isi{
+      width: auto;
+      height: auto;
+      display: block;
+      margin: 0px;
+    }
+
+    .isi p{
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 25px;
+      color: white;
+      text-align: justify;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      
+    }
+
+    button{
+      color: white;
+      padding: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 30%;
+      border: 0px;
+    }
+
+    .sedan button p{
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      margin: 0px;
+      color: hsl(31, 77%, 52%);
+    }
+
+    .suv button p{
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      margin: 0px;
+      color: hsl(184, 100%, 22%);
+    }
+
+    .luxury button p {
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      margin: 0px;
+      color: hsl(179, 100%, 13%);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="content">
+  <div class="sedan">
+    <div class="logo">
+      <img src="images/icon-sedans.svg">
+    </div>
+    <div class="judul">
+      <p>SEDANS</p>
+    </div>
+    <div class="isi">
+      <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip.</p>
+    </div>
+    <button class="tombol">
+      <p>Learn More</p>
+    </button>
+  </div>
+
+  <div class="suv">
+    <div class="logo">
+      <img src="images/icon-suvs.svg">
+    </div>
+    <div class="judul">
+      <p>SUVS</p>
+    </div>
+    <div class="isi">
+      <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.</p>
+    </div>
+    <button class="tombol">
+      <p>Learn More</p>
+    </button>
+  </div>
+
+  <div class="luxury">
+    <div class="logo">
+      <img src="images/icon-luxury.svg">
+    </div>
+    <div class="judul">
+      <p>LUXURY</p>
+    </div>
+    <div class="isi">
+      <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.</p>
+    </div>
+    <button class="tombol">
+      <p>Learn More</p>
+    </button>
+  </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hanzalwi</a>.
+  </div>
+</body>
+</html>
